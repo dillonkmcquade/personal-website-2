@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: auto;
+
+    .media-icons {
+        display: flex;
+        padding: 15px;
+    }
+    
+}

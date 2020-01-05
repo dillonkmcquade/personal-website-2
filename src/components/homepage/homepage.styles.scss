@@ -1,0 +1,15 @@
+.homepage {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .homepage-title {
+    font-size: 40px;
+  }
+}
