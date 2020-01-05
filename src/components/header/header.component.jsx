@@ -5,7 +5,7 @@ import "./header.styles.scss";
 const Header = () => {
   return (
     <div className="header">
-      <div className="header-logo">Dillon McQuade</div>
+      <div className="header-logo"><span style={{fontFamily: 'Righteous, cursive'}}>Dillon McQuade</span></div>
       <div className="options">
         <Link to="/" className="option">
           About
