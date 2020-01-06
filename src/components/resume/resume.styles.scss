@@ -4,6 +4,11 @@
     height: 100%;
     color: rgb(113, 123, 150);
     font-family: "Righteous", cursive;
+    margin-bottom:15vh;
+    @media screen and (max-width: 800px){
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 
     .resume-title {
         color: rgb(128, 168, 206);
