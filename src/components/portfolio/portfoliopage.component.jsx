@@ -10,6 +10,7 @@ const PortfolioPage = () => {
              
         <ProjectCard projectData={projectData[0]} />
         <ProjectCard projectData={projectData[1]} />
+        <ProjectCard projectData={projectData[2]} />
         </div>
     )
 }
