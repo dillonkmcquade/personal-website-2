@@ -5,7 +5,7 @@ export const projectData = [
       "https://i.ibb.co/jy1K9mn/screencapture-green-mountain-gear-herokuapp-com-1578327898151.png",
     name: "Green Mountain Gear",
     description:
-      "Green Mountain Gear.herokuapp.com is an e-commerce website created using React.js and redux for state management. Fully equipped for payments using Stripe and handles session and user authentication with Firebase.",
+      "Green Mountain Gear is an e-commerce website created using React.js and redux for state management. Fully equipped for payments using Stripe and handles session and user authentication with Firebase.",
     source: "https://github.com/dillonkmcquade/green-mountain-gear",
     demo: "https://green-mountain-gear.herokuapp.com"
   },
