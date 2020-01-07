@@ -13,7 +13,12 @@ const HomePage = () => {
       <h3>Front end web developer</h3>
 
       <div className="homepage-btn">
-        <a href="https://google.com" className="contact-btn">
+        <a
+          href="mailto:dillonkmcquade@gmail.com?subject=Interview"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-btn"
+        >
           get in touch
         </a>
       </div>

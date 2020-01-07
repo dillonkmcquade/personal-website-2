@@ -24,10 +24,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className='contact-info'>
-          <span className='email-phone'>dillonkmcquade@gmail.com</span>
-          <span>514-809-6978</span>
-      </div>
     </div>
   );
 };
