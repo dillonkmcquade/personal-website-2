@@ -10,7 +10,7 @@ const HomePage = () => {
           <span className="logo2">m</span>cQuade
         </div>
       </div>
-      <h3>Software Developer</h3>
+      <h3>Front end web developer</h3>
 
       <div className="homepage-btn">
         <a href="https://google.com" className="contact-btn">
