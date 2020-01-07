@@ -7,7 +7,8 @@ export const projectData = [
     description:
       "Green Mountain Gear is an e-commerce website created using React.js and redux for state management. Fully equipped for payments using Stripe and handles session and user authentication with Firebase.",
     source: "https://github.com/dillonkmcquade/green-mountain-gear",
-    demo: "https://green-mountain-gear.herokuapp.com"
+    demo: "https://green-mountain-gear.herokuapp.com",
+    alt: "image of green mountain gear website interface"
   },
 
   {
@@ -18,7 +19,8 @@ export const projectData = [
     description:
       "Foodifai is a web app that leverages a machine learning model to predict the indredients in photo URLs. Developed using React, Express, Node, and PostgresQL",
     source: "https://github.com/dillonkmcquade/smartbrains",
-    demo: "https://foodifai.herokuapp.com"
+    demo: "https://foodifai.herokuapp.com",
+    alt: "image of Foodifai site interface"
   },
   {
     id: "3",
@@ -28,6 +30,7 @@ export const projectData = [
     description:
       "A playful, modern take on a contact list with responsive searchability Developed using React, Robohash API, and bootstrapped with Tachyons",
     source: "https://github.com/dillonkmcquade/robofriends",
-    demo: "https://dillonkmcquade.github.io/Robofriends/"
+    demo: "https://dillonkmcquade.github.io/Robofriends/",
+    alt: "image of Robofriends site interface"
   }
 ];

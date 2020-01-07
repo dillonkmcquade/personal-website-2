@@ -5,48 +5,44 @@
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
-  color: gray;
-  background-color: rgb(239, 236, 247);
+  color: white;
   font-family: "Righteous", cursive;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 800px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-  
-
+  }
   .header-logo {
-    font-size: 35px;
-    color: rgb(20, 164, 231);
-    text-shadow: 5px 5px lightgray;
-    @media screen and (max-width: 800px){
-        font-size: 25px;
+    font-size: 100px;
+    font-weight: 200;
+    font-family: "Monoton", cursive;
+    padding-left: 10px;
+
+    @media screen and (max-width: 800px) {
+      font-size: 80px;
     }
-    
   }
 
   .options {
     width: 30%;
     display: flex;
     justify-content: space-around;
-    color: gray;
+    color: white;
     font-size: 30px;
-    @media screen and (max-width: 800px){
-        font-size: 25px;
-        justify-content: space-evenly;
-        
+    @media screen and (max-width: 800px) {
+      font-size: 25px;
+      justify-content: space-evenly;
     }
 
     .option {
-      color: gray;
       padding: 10px;
-      &:hover {
-        color: white;
-      }
     }
     a {
       text-decoration: none;
-      color: gray;
+      color: white;
+      &:hover {
+        opacity: 0.7;
+      }
     }
   }
 }

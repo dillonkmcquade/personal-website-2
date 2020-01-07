@@ -2,12 +2,20 @@
   margin-left: 20vw;
   margin-right: 20vw;
   height: 100%;
-  color: rgb(113, 123, 150);
+  color: #555555;
+  background-color: lightgray;
+
+  border-radius: 15px;
+  padding: 20px;
   font-family: "Righteous", cursive;
   margin-bottom: 15vh;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  hr {
+    width: 20%;
+    border-bottom: 3px solid lightgray;
+  }
 
   @keyframes fadeInAnimation {
     0% {
@@ -23,12 +31,12 @@
   }
 
   .resume-title {
-    color: rgb(128, 168, 206);
+    color: #00449e;
   }
 
   a {
     text-decoration: none;
-    color: rgb(77, 93, 107);
+    color: #001b44;
     &:hover {
       color: white;
     }
