@@ -13,8 +13,7 @@ export const projectData = [
 
   {
     id: "2",
-    image:
-      "https://i.ibb.co/qx55k0M/screencapture-foodifai-herokuapp-com-1578328249359.png",
+    image: "https://i.postimg.cc/2SWHR9CD/foodifai-screensht.png",
     name: "Foodifai",
     description:
       "Foodifai is a web app that leverages a machine learning model to predict the indredients in photo URLs. Developed using React, Express, Node, and PostgresQL",
