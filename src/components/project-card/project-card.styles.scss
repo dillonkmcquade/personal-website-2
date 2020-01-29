@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
-  width: 30vw;
-  height: 450px;
+  width: 25vw;
+  min-height: 450px;
   border: 1px solid gray;
-  box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 15px 0px 10px -10px rgba(0, 0, 0, 0.1);
   background-color: white;
   border-radius: 10px;
   font-family: "Righteous", cursive;
@@ -21,6 +21,9 @@
     height: 200px;
     width: auto;
     padding: 10px;
+    @media screen and (max-width: 800px) {
+      height: 250px;
+    }
 
     img {
       background-size: cover;
@@ -34,7 +37,7 @@
     text-align: center;
 
     .project-name {
-      text-shadow: 2px 2px lightgray;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -47,7 +50,7 @@
       text-decoration: none;
       font-size: 16px;
       font-weight: bold;
-      color: gray;
+      color: rgb(16, 203, 209);
 
       &:hover {
         color: lightgray;
