@@ -1,26 +1,26 @@
 import React from "react";
 import "./footer.styles.scss";
-import { ReactComponent as Github } from "../../assets/github.svg";
-import { ReactComponent as Gmail } from "../../assets/gmail.svg";
-import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import MailIcon from '@material-ui/icons/Mail';
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="media-icons">
-        <div className='icon'>
+        <div className="icon git">
           <a href="https://www.github.com/dillonkmcquade">
-            <Github />
+            <GitHubIcon fontSize='large' htmlColor='white'/>
           </a>
         </div>
-        <div className='icon'>
-        <a href="https://www.linkedin.com/in/dillon-mcquade-1576a2198">
-            <Linkedin />
+        <div className="icon linkedin">
+          <a href="https://www.linkedin.com/in/dillon-mcquade-1576a2198">
+            <LinkedInIcon fontSize='large' htmlColor='white' />
           </a>
         </div>
-        <div className='icon'>
-        <a href="mailto:dillonkmcquade@gmail.com">
-            <Gmail />
+        <div className="icon mail">
+          <a href="mailto:dillonkmcquade@gmail.com">
+            <MailIcon fontSize='large' htmlColor='white'/>
           </a>
         </div>
       </div>
