@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <div className="homepage-name">
-        <div>
+        <div className='name'>
           <span className="logo2">D</span>illon K.{" "}
           <span className="logo2">m</span>cQuade
         </div>

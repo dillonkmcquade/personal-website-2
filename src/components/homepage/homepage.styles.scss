@@ -17,7 +17,7 @@
   }
 
   @media screen and (max-width: 800px) {
-    height: 70vh;
+    height: 60vh;
   }
 
   a {
@@ -50,10 +50,13 @@
         opacity: 1;
       }
     }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 925px) {
       width: 80vw;
       font-size: 25px;
       margin: 10px;
+    }
+    @media screen and (max-width: 350px){
+      font-size: 20px;
     }
   }
   .logo2 {
@@ -61,4 +64,5 @@
     font-weight: 200;
     font-size: 50px;
   }
+  
 }
