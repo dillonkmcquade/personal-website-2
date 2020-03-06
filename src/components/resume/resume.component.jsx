@@ -6,9 +6,7 @@ const Resume = () => {
     <div className="resume-page">
       <h1 className="resume-title">OBJECTIVE</h1>
       <p className="content">
-        As a front-end web developer I bring value to your products by creating
-        interactive, simple, modern, and performing applications using
-        JavaScript and the tools that exist in its ecosystem.
+        As a front-end web developer I strive to create responsive and intuitive user interfaces for web applications while efficiently writing scalable and maintainable code.
       </p>
       <hr />
       <h1 className="resume-title">TECHNICAL PROJECTS</h1>
@@ -44,8 +42,8 @@ const Resume = () => {
         ingredients in photos
       </p>
       <p className="content">
-        &#8688; Full stack development using Node, Express, React, PostgresQL,
-        SASS
+        &#8688; Full stack development using Node, Express, React, PostgresQL, containerized with Docker
+        
       </p>
       {/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/}
       <h3>
@@ -65,8 +63,8 @@ const Resume = () => {
       </p>
       <h1 className="resume-title">TECHNICAL SKILLS</h1>
       <p className="content">
-        &#8688; React, Redux, ES6, Express, PostgresQL, Node, Webpack, Babel,
-        Git, GraphQL
+        &#8688; React, Redux, ES6, PostgresQL, Node, Docker,
+        Git, linux, VM's
       </p>
     </div>
   );
