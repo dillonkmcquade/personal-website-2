@@ -5,19 +5,16 @@
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
-  color: white;
   font-family: "Righteous", cursive;
   @media screen and (max-width: 800px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
   .options {
     width: 30%;
     display: flex;
     justify-content: space-around;
-    color: white;
     font-size: 30px;
     @media screen and (max-width: 800px) {
       font-size: 25px;
@@ -30,9 +27,9 @@
     }
     a {
       text-decoration: none;
-      color: white;
+      color: rgb(146, 222, 245);
       &:hover {
-        opacity: 0.7;
+        transform: scale(1.07);
       }
     }
   }
