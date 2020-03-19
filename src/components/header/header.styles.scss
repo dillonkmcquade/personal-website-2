@@ -8,9 +8,12 @@
   padding: 15px;
   font-family: "Righteous", cursive;
   margin-bottom: 30px;
+  animation: fadeInAnimation ease 2s;
+  
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
   @media screen and (max-width: 800px) {
-  justify-content: space-between;
-    
+    justify-content: space-between;
   }
 
   .hamburger {
@@ -20,11 +23,14 @@
     }
   }
   .options {
-    width: 30%;
+    width: auto;
     display: flex;
-    justify-content: space-around;
-    font-size: 30px;
+    font-size: 18px;
     border-bottom: 1px solid #2e2c2b;
+    margin-top: 20px;
+    .option {
+      padding: 10px;
+    }
     @media screen and (max-width: 800px) {
       display: none;
       width: 80vw;
@@ -33,10 +39,6 @@
       padding: 20px;
       margin-top: 30px;
     }
-
-    .option {
-      padding: 10px;
-    }
     a {
       text-decoration: none;
       color: #2e2c2b;
@@ -44,6 +46,15 @@
         transform: scale(1.07);
         color: gray;
       }
+    }
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
 }

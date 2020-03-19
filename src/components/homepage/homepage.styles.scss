@@ -1,22 +1,38 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
 .homepage {
-  font-weight: bold;
   font-family: "Righteous", cursive;
-  width: 100%;
+  margin-right: 20vw;
+  margin-left: 20vw;
   color: #2e2c2b;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-size: 20px;
 
   img {
-    @media screen and (max-width: 1200px) {
+    
+    @media screen and (min-width: 1250px) {
+      width: 900px;
+    }
+
+    @media screen and (max-width: 1249px) {
       width: 400px;
-      padding: 15px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    @media screen and (max-width: 900px) {
+      width: 300px;
+     
     }
     @media screen and (max-width: 600px) {
-      width: 50vw;
+      width: 250px;
+      
+    }
+
+    @media screen and (max-width: 450px) {
+     width: 200px;
     }
   }
 
@@ -62,14 +78,9 @@
     animation-name: fadeInLeft;
   }
 
-  .homepage-btn {
-    a {
-      font-size: 24px;
-    }
-  }
-
   @media screen and (max-width: 800px) {
     height: 60vh;
+    
   }
 
   a {
@@ -79,48 +90,27 @@
       color: gray;
     }
   }
-  .homepage-name {
+  .profile {
     -webkit-appearance: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    width: 30vw;
+    min-width: 50%;
     height: 150px;
     min-height: 150px;
-    font-size: 25px;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    
-    .name {
-      min-width: 250px;
-    }
 
-    @keyframes fadeInAnimation {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-    @media screen and (max-width: 925px) {
-      width: 50vw;
-      font-size: 25px;
-      margin: 10px;
-    }
-    @media screen and (max-width: 350px) {
-      font-size: 20px;
+    @media screen and (max-width: 450px) {
+      font-size: 10px;
+      width: 60vw;
     }
   }
-  .logo2 {
-    font-family: "Monoton", cursive;
-    font-weight: 200;
-    font-size: 50px;
-    @media screen and (max-width: 350px) {
-      font-size: 40px;
-    }
+
+  .name {
+    min-width: 250px;
+  }
+  @media screen and (max-width: 925px) {
+    font-size: 18px;
   }
 }

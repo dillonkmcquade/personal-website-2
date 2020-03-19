@@ -105,7 +105,7 @@ const Header = () => {
         <ListItem button>
           <ListItemLink href="https://www.github.com/dillonkmcquade">
             <ListItemIcon>
-              <GitHubIcon />
+              <GitHubIcon htmlColor='black'/>
             </ListItemIcon>
             <ListItemText>GitHub</ListItemText>
           </ListItemLink>
@@ -113,7 +113,7 @@ const Header = () => {
         <ListItem button>
           <ListItemLink href="https://www.linkedin.com/in/dillon-mcquade-1576a2198">
             <ListItemIcon>
-              <LinkedInIcon />
+              <LinkedInIcon htmlColor='black'/>
             </ListItemIcon>
             <ListItemText>LinkedIn</ListItemText>
           </ListItemLink>
@@ -121,7 +121,7 @@ const Header = () => {
         <ListItem button>
           <ListItemLink href="mailto:dillonkmcquade@gmail.com">
             <ListItemIcon>
-              <MailIcon />
+              <MailIcon htmlColor='black'/>
             </ListItemIcon>
             <ListItemText>E-mail</ListItemText>
           </ListItemLink>

@@ -4,16 +4,17 @@ import "./homepage.styles.scss";
 const HomePage = () => {
   return (
     <div className="homepage">
-      <div style={{textAlign: 'center'}} className='animated-2 fadeInLeft'>
-        <div className="homepage-name">
-          <div className="name">
-            <span className="logo2">D</span>illon K.{" "}
-            <span className="logo2">m</span>cQuade
-          </div>
-        </div>
-        <h3>Front end web developer</h3>
+      <div className="profile fadeInLeft animated-2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+        doloribus deserunt obcaecati quas nesciunt consectetur veniam dolores
+        quisquam? Eum quod modi quos libero suscipit tempora vero atque itaque
+        ex beatae?
       </div>
-      <img src='https://i.postimg.cc/rssfWssk/resized-img.jpg' alt='dillon' className='fadeInLeft animated-1'/>
+      <img
+        src="https://i.postimg.cc/rssfWssk/resized-img.jpg"
+        alt="dillon"
+        className="fadeInLeft animated-1"
+      />
     </div>
   );
 };

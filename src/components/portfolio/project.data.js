@@ -23,7 +23,7 @@ export const projectData = [
   },
   {
     id: "3",
-    image: "https://i.postimg.cc/LshrDypZ/screencapture-ancient-earth-21308-herokuapp-com-1583365982267.png",
+    image: "https://i.postimg.cc/D03RNcFd/screencapture-ancient-earth-21308-herokuapp-com-1584649658011.png",
     name: "Developer Job Search Engine",
     description:
       "The developer job search engine is a progressive web app created with React.js. The backend is handling fetch calls to the GitHub jobs API and is running on an Express server.",
