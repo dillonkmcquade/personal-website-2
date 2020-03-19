@@ -1,13 +1,36 @@
-.logo{
-    font-size: 100px;
-    font-weight: 2;
-    font-family: "Monoton", cursive;
-    padding-left: 20px;
-    height: 60px;
-    width: 75px;
-    color: rgb(184, 233, 248);  
-    @media screen and (max-width: 800px) {
-        font-size: 80px;
-        padding-bottom: 20px;
-      }
+.logo {
+  font-size: 75px;
+  font-weight: normal;
+  font-family: "Monoton", cursive;
+  height: 20px;
+  width: 75px;
+  animation: fadeInAnimation ease 2s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /*rgb(221, 220, 220);*/
+
+  a {
+    text-decoration: none;
+    color: #2e2c2b;
+    
+    &:hover {
+      color: gray;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 80px;
+    padding-bottom: 20px;
+  }
 }

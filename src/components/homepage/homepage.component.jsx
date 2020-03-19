@@ -4,7 +4,7 @@ import "./homepage.styles.scss";
 const HomePage = () => {
   return (
     <div className="homepage">
-      <div style={{textAlign: 'center'}}>
+      <div style={{textAlign: 'center'}} className='animated-2 fadeInLeft'>
         <div className="homepage-name">
           <div className="name">
             <span className="logo2">D</span>illon K.{" "}
@@ -12,18 +12,8 @@ const HomePage = () => {
           </div>
         </div>
         <h3>Front end web developer</h3>
-
-        <div className="homepage-btn">
-          <a
-            href="mailto:dillonkmcquade@gmail.com?subject=Interview"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-btn"
-          >
-            get in touch
-          </a>
-        </div>
       </div>
+      <img src='https://i.postimg.cc/rssfWssk/resized-img.jpg' alt='dillon' className='fadeInLeft animated-1'/>
     </div>
   );
 };

@@ -3,13 +3,65 @@
   font-weight: bold;
   font-family: "Righteous", cursive;
   width: 100%;
-  color: rgb(184, 233, 248);
+  color: #2e2c2b;
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  img {
+    @media screen and (max-width: 1200px) {
+      width: 400px;
+      padding: 15px;
+    }
+    @media screen and (max-width: 600px) {
+      width: 50vw;
+    }
+  }
+
+  .animated-1 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  .animated-2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+  }
+
+  @-webkit-keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }
+
   .homepage-btn {
     a {
       font-size: 24px;
@@ -21,10 +73,10 @@
   }
 
   a {
-    color: rgb(184, 233, 248);
+    color: #2e2c2b;
     text-decoration: none;
     &:hover {
-      color: #19a974;
+      color: gray;
     }
   }
   .homepage-name {
@@ -34,8 +86,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    border: 5px solid rgb(184, 233, 248);
-    border-style: double;
     width: 30vw;
     height: 150px;
     min-height: 150px;
@@ -43,6 +93,7 @@
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
     .name {
       min-width: 250px;
     }
@@ -56,11 +107,11 @@
       }
     }
     @media screen and (max-width: 925px) {
-      width: 80vw;
+      width: 50vw;
       font-size: 25px;
       margin: 10px;
     }
-    @media screen and (max-width: 350px){
+    @media screen and (max-width: 350px) {
       font-size: 20px;
     }
   }
@@ -68,10 +119,8 @@
     font-family: "Monoton", cursive;
     font-weight: 200;
     font-size: 50px;
-    @media screen and (max-width: 350px){
+    @media screen and (max-width: 350px) {
       font-size: 40px;
     }
-
   }
-  
 }

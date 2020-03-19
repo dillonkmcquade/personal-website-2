@@ -1,25 +1,37 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  justify-content: space-around;
   font-size: 16px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
   font-family: "Righteous", cursive;
+  margin-bottom: 30px;
   @media screen and (max-width: 800px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  justify-content: space-between;
+    
+  }
+
+  .hamburger {
+    display: none;
+    @media screen and (max-width: 800px) {
+      display: block;
+    }
   }
   .options {
     width: 30%;
     display: flex;
     justify-content: space-around;
     font-size: 30px;
+    border-bottom: 1px solid #2e2c2b;
     @media screen and (max-width: 800px) {
+      display: none;
+      width: 80vw;
       font-size: 25px;
       justify-content: space-evenly;
       padding: 20px;
+      margin-top: 30px;
     }
 
     .option {
@@ -27,9 +39,10 @@
     }
     a {
       text-decoration: none;
-      color: rgb(146, 222, 245);
+      color: #2e2c2b;
       &:hover {
         transform: scale(1.07);
+        color: gray;
       }
     }
   }
