@@ -3,7 +3,7 @@ import "./project-card.styles.scss";
 
 const ProjectCard = ({ projectData }) => {
   return (
-    <a href={projectData.demo} className="project-card">
+    <div className='project-card'>
       <div className="project-image">
         <img src={projectData.image} alt={projectData.alt} />
         <div className="project-buttons">
@@ -17,7 +17,7 @@ const ProjectCard = ({ projectData }) => {
         <h2 className="project-name">{projectData.name}</h2>
         <div className="project-description">{projectData.description}</div>
       </div>
-    </a>
+    </div>
   );
 };
 export default ProjectCard;
