@@ -19,6 +19,10 @@
     flex-direction: column;
     align-items: center;
 
+    @media screen and (max-width: 400){
+      width: 200px;
+    }
+
     .logo2 {
       font-weight: normal;
       font-family: "Monoton", cursive;

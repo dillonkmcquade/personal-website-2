@@ -7,6 +7,7 @@ import MailIcon from '@material-ui/icons/Mail';
 const Footer = () => {
   return (
     <div className="footer">
+      
       <div className="media-icons">
         <div className="icon git">
           <a href="https://www.github.com/dillonkmcquade">
