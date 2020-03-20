@@ -1,20 +1,61 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+
+
+.bg-1 {
+  background: rgb(8, 165, 212);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  .profile {
+    color: white;
+  }
+}
+.bg-2 {
+  font-weight: bold;
+ 
+  .profile-2 {
+    @extend .profile;
+    color: black;
+    font-size: 45px;
+    @media screen and (max-width: 450px) {
+      font-size: 25px;
+    }
+  }
+}
+
+.profile-2 {
+  @extend .profile;
+  
+}
+.homepage-2 {
+  @extend .homepage;
+  .bg-2 {
+    background: white;
+    margin-top: 50px;
+    color: #2e2c2b;
+    font-weight: bold;
+    .profile-2 {
+      @extend .profile;
+      color: black;
+      font-size: 45px;
+     
+    }
+  }
+}
 .homepage {
   font-family: "Righteous", cursive;
-  margin-right: 20vw;
-  margin-left: 20vw;
+  width: 100%;
   color: #2e2c2b;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   img {
-    
     @media screen and (min-width: 1250px) {
-      width: 900px;
+      max-width: 900px;
     }
 
     @media screen and (max-width: 1249px) {
@@ -24,15 +65,13 @@
     }
     @media screen and (max-width: 900px) {
       width: 300px;
-     
     }
     @media screen and (max-width: 600px) {
       width: 250px;
-      
     }
 
     @media screen and (max-width: 450px) {
-     width: 200px;
+      width: 200px;
     }
   }
 
@@ -80,7 +119,6 @@
 
   @media screen and (max-width: 800px) {
     height: 60vh;
-    
   }
 
   a {
@@ -96,10 +134,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
-    min-width: 50%;
+    width: 30%;
+    padding: 10px;
     height: 150px;
     min-height: 150px;
+    font-size: 40px;
 
     @media screen and (max-width: 450px) {
       font-size: 10px;

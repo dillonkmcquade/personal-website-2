@@ -7,10 +7,11 @@
   font-weight: bold;
   padding-top: 15px;
   font-family: "Righteous", cursive;
-  margin-bottom: 30px;
+  height: 100px;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: both;
+  
   @media screen and (max-width: 800px) {
     justify-content: space-between;
     margin-left: 0px;
@@ -30,6 +31,7 @@
     font-size: 18px;
     border-bottom: 1px solid #2e2c2b;
     margin-top: 20px;
+    height: 50px;
     .option {
       padding: 10px;
     }
